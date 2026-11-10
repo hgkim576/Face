@@ -1,0 +1,23 @@
+[server]
+# PRD 5.1: 최대 10MB (업로더 안내 문구도 10MB로 표시됨)
+maxUploadSize = 10
+
+# "관상가의 방" 테마: 한지색 배경 + 먹색 글자 + 주홍 낙관 포인트
+[theme]
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+headingFont = "Noto Serif KR:https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700&display=swap, serif"
+baseRadius = "0.75rem"
+
+[theme.light]
+primaryColor = "#B23A2E"
+backgroundColor = "#F6F0E4"
+secondaryBackgroundColor = "#ECE2CF"
+textColor = "#2A2420"
+borderColor = "#D8C9AD"
+
+[theme.dark]
+primaryColor = "#E07A66"
+backgroundColor = "#1A1715"
+secondaryBackgroundColor = "#28231F"
+textColor = "#EEE6D8"
+borderColor = "#40372F"
